@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>24/7 News & AI Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>24/7 News & AI Assistant</h1>
+    <p>Real-time news and chat with Akin Sokpah AI</p>
+  </header>
+  <nav>
+    <button id="news-tab" class="tab active">News</button>
+    <button id="ai-tab" class="tab">AI Chat</button>
+  </nav>
+  <main>
+    <section id="news-section" class="content active">
+      <div id="news-container">
+        <p>Loading news...</p>
+      </div>
+    </section>
+    <section id="ai-section" class="content">
+      <div id="chat-container">
+        <div id="chat-messages">
+          <div class="message ai">
+            <strong>Akin Sokpah:</strong> Hello! I'm Akin Sokpah, a beautiful AI assistant created by Akin Sokpah. How can I help you today?
+          </div>
+        </div>
+        <div id="typing-indicator" class="hidden">Akin Sokpah is typing...</div>
+        <div id="chat-input-container">
+          <input type="text" id="chat-input" placeholder="Type your message..." />
+          <button id="send-btn">Send</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
