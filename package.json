@@ -1,0 +1,18 @@
+// {
+  "name": "news-website",
+  "version": "1.0.0",
+  "description": "A 24/7 news updating website with AI assistant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.5.0",
+    "node-cron": "^3.0.3",
+    "openai": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
